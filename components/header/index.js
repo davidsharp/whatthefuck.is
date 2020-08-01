@@ -20,7 +20,7 @@ const Header = ({ slug, title }) => {
               aria-label="Navigate Home"
               className={slug ? styles.home : styles.slug}
             >
-              whatthefuck.is
+              {`whatthe${process.env.curse}.is`}
             </a>
           </Link>
           <span className={styles.tagline}>

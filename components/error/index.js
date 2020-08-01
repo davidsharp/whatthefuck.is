@@ -32,7 +32,7 @@ const Error = ({ missingTerm, status }) => {
       ) : (
         <section className={styles.section}>
           <span>{status || 'пиздец'}</span>
-          <p>For fuck’s sake.</p>
+          <p>For {process.env.curse}’s sake.</p>
         </section>
       )}
     </Page>
